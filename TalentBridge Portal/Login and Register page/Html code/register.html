@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job I - Register</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="shortcut icon" href="./registerimages/titlebar-logo.png" type="image/x-icon">
+</head>
+<body>
+
+  
+
+  <div class="container">
+    <div class="overall-header">
+      <div class="header-1">
+      <h1> Welcome to  </h1>
+    </div>
+    <div class="header-2">
+       <img src="./registerimages/jobi-logo.png" alt=""> 
+    </div>
+    </div>
+    <div class="tabs">
+      <div class="tab active" data-target="candidate-form">Candidate</div>
+      <div class="tab" data-target="employer-form">Employer</div>
+    </div>
+
+    <!-- Candidate Form -->
+    <form id="candidate-form" class="active" action="" method="post">
+      <div class="input-group">
+        <label for="c-name">Full Name</label>
+        <input type="text" id="c-name" placeholder="Enter your full name" required>
+      </div>
+      <div class="input-group">
+        <label for="c-email">Email Address</label>
+        <input type="email" id="c-email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label for="c-password">Password</label>
+        <input type="password" id="c-password" placeholder="Enter your password" required>
+        <span class="toggle-password" onclick="togglePassword('c-password', this)">👁️</span>
+      </div>
+      <button type="submit">Register as Candidate</button>
+    </form>
+
+    <!-- Employer Form -->
+    <form id="employer-form">
+      <div class="input-group">
+        <label for="e-name">Full Name</label>
+        <input type="text" id="e-name" placeholder="Enter your Full name" required>
+      </div>
+      <div class="input-group">
+        <label for="e-email">Email Address</label>
+        <input type="email" id="e-email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label for="e-password">Password</label>
+        <input type="password" id="e-password" placeholder="Enter your password" required>
+        <span class="toggle-password" onclick="togglePassword('e-password', this)">👁️</span>
+      </div>
+      <button type="submit">Register as Employer</button>
+    </form>
+  </div>
+
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const forms = document.querySelectorAll('form');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        forms.forEach(f => f.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.target).classList.add('active');
+      });
+    });
+
+    function togglePassword(id, icon) {
+      const input = document.getElementById(id);
+      if (input.type === "password") {
+        input.type = "text";
+        icon.textContent = "🙈";
+      } else {
+        input.type = "password";
+        icon.textContent = "👁️";
+      }
+    }
+  </script>
+
+  
+
+</body>
+</html>

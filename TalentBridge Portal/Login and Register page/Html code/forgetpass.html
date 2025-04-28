@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job I - Forget Password</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="shortcut icon" href="./registerimages/titlebar-logo.png" type="image/x-icon">
+</head>
+<body>
+
+  
+
+  <div class="container">
+    <div class="overall-header">
+      <div class="header-1">
+      <h1> Welcome to  </h1>
+    </div>
+    <div class="header-2">
+       <img src="./registerimages/jobi-logo.png" alt=""> 
+    </div>
+    </div>
+    <div class="tabs">
+      <div class="tab active" data-target="candidate-form">Candidate</div>
+    </div>
+
+    <!-- Candidate Form -->
+    <form id="candidate-form" class="active">
+      <div class="input-group">
+        <label for="c-email">Email Address</label>
+        <input type="email" id="c-email" placeholder="Enter your email" required>
+      </div>
+      <div class="input-group">
+        <label for="c-password">New Password</label>
+        <input type="password" id="c-password" placeholder="Enter your password" required>
+        <span class="toggle-password" onclick="togglePassword('c-password', this)">👁️</span>
+      </div>
+      <button type="submit">Confrim password & Login</button>
+    </form>
+
+    
+
+  
+  
+
+</body>
+</html>

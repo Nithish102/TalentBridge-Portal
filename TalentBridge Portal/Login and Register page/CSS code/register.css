@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  body {
+    background-image: url(./registerimages/—Pngtree—simple\ e-commerce\ jobs\ cooperation_935503.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 400px;
+    max-width: 90%;
+    margin-top: 13em;
+    margin-left: 35em;
+  }
+  .tabs {
+    display: flex;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-weight: bold;
+    color: #555;
+    transition: 0.3s;
+  }
+  .tab.active {
+    border-bottom: 3px solid rgb(2, 196, 2);
+    color: rgb(2, 196, 2);
+  }
+  form {
+    display: none;
+    flex-direction: column;
+  }
+  form.active {
+    display: flex;
+  }
+  .input-group {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  label {
+    margin-bottom: 0.3rem;
+    display: block;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: 0.3s;
+  }
+  input:focus {
+    border-color:  rgb(2, 196, 2);
+  }
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  button {
+    padding: 0.75rem;
+    background:  rgb(2, 196, 2);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .overall-header{
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+  }
+  .overall-header h1{
+   color:  #555; 
+  }
+  a{
+    text-decoration: none;
+    color: #555;
+  }
+  button:hover {
+    background:  black;
+  }
+  .input-group p{
+    margin-top: 1em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+      padding: 1rem;
+      background-image: none;
+      background-color: #f0f2f5;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+  
+    .tabs {
+      flex-direction: column;
+    }
+  
+    .tab {
+      padding: 0.5rem 0;
+    }
+  
+    .overall-header {
+      grid-template-columns: 1fr; /* Stack header content */
+      text-align: center;
+    }
+  
+    .overall-header h1 {
+      font-size: 1.2rem;
+    }
+  
+    input {
+      padding: 0.6rem;
+    }
+  
+    button {
+      padding: 0.6rem;
+    }
+  }
+  
