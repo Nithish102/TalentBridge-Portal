@@ -1,0 +1,737 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    height: 400vh;
+}
+                 /*                  Navbar                  */
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    margin-top: 1em;
+    background-color:  #ECEEEE;
+    height: 4em;
+    z-index: 1;
+}
+.navbar-content{
+    padding-top: 0.5em;
+    align-items: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 600px 100px 100px 150px 300px 80px 80px;
+    font-size: 120%;
+}
+.navbar li:hover{
+    color: rgb(2, 196, 2);
+    cursor: pointer;
+}
+.navbar-content img{
+    margin-left: 20%;
+    height:15%;
+    width:15%
+}
+.navbar-content button{
+  height: 05vh;
+  width: 170%;
+  background-color: rgb(2, 196, 2);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar span{
+    color:rgb(2, 196, 2);
+}
+
+                    /*              main about content - 1                 */
+
+.overall-about-1{
+    height: 22vh;
+    background-color:  #ECEEEE; 
+    text-align: center;   
+}
+.about-1-header h1{
+    font-size: 250%;
+    padding-top: 0.6em;
+    color: rgb(2, 196, 2);
+}
+.about-1-header p{
+    font-size: 130%;
+    padding-top: 1em;
+    color: rgb(101, 99, 99);
+    line-height: 1.5em;
+}     
+
+              /*                    what we do            */
+
+
+.overall-about-2{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    overflow: hidden;
+}
+.overall-about-2 img{
+   height: 50vh;
+}
+.about-2-header{
+    width: 50vw;
+    transform: translateX(46em) translateY(-24.5em);
+}
+.about-2-header h1{
+    font-size: 250%;
+    padding-top: 0.6em;
+    color: rgb(2, 196, 2);
+}
+.about-2-header p{
+    font-size: 130%;
+    padding-top: 1em;
+    color: rgb(101, 99, 99);
+    line-height: 2em;
+}
+.div-1{
+    height:2px;
+    width: 20vw;
+    background-color: rgb(50, 46, 46);
+    transform: translateX(-2em);
+}
+.div-2{
+    height: 2px;
+    width: 20vw;
+    background-color: rgb(50, 46, 46);
+    transform: translateX(27.3em) translateY(-5em) ;
+}
+ 
+                 /*           motto             */
+
+.overall-about-3{
+    background-image: url(./images/about-image/about-3.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    height: 60vh;
+    margin-top: 5em;
+    transform: translateY(-300px);
+    overflow: hidden;
+}
+.about-3-header {
+     margin-left: 95vh;
+     transform: translateY(60px);
+     width: 40%;
+     padding: 20px;
+     line-height: 2em;
+     border: solid 2px black;
+     border-radius: 30px;
+     backdrop-filter: blur(10px);
+    }
+    .about-3-header:hover{
+        border-color: green ;
+        cursor: pointer;
+    }
+.about-3-header h1 {
+        color:rgb(2, 196, 2);
+        text-align: center;
+        font-size: 250%;
+}
+.about-3-header p {
+    font-size: 130%;
+    padding-top: 2em;
+    color: rgb(101, 99, 99);
+ }
+ .about-3-header span{
+    color: green;
+    padding-left: 1.5em;
+    font-size: 150%;
+ }
+
+                         /*              our mission         */
+
+.overall-about-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: translateY(-12em);
+    overflow: hidden;
+}
+.overall-about-4 img{
+   height: 100%;
+   width: 100%;
+}
+.about-4-header{
+    transform: translateX(48em) translateY(-37em);
+    width: 45em;
+    /* padding-top: 5em; */
+}
+.about-4-header h1{
+    color:rgb(2, 196, 2);
+    font-size: 250%;
+    padding-top: 0.6em;
+}
+.about-4-header p{
+    font-size: 130%;
+    padding-top: 1em;
+    color: rgb(101, 99, 99);
+    line-height: 2em;
+}
+.div-3{
+    height:2px;
+    width: 20vw;
+    background-color: rgb(50, 46, 46);
+    transform: translateY(1.5em) translateX(0.5em);
+}
+.div-4{
+    height: 2px;
+    width: 20vw;
+    background-color: rgb(50, 46, 46);
+    transform: translateX(27.3em) translateY(-8em) ;
+}
+
+                   /*          services        */
+
+.overall-about-5{
+     transform: translateY(-38em);
+     background-image: url(./images/about-image/about-5.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     height: 78vh;
+     overflow: hidden;
+    }
+.overall-about-5 h2{
+    text-align: center;
+    border: solid 2px black;
+    backdrop-filter: blur(5px);
+    font-size: 250%;
+    width: 22em;
+    margin-left: 8em;
+    border-radius: 15px;
+}
+.overall-about-5-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}     
+/* .overall-about-5-bg{
+    background-color: rgba( 51,50,50,0.5);
+    z-index: 1;
+    height: 78vh;
+} */
+.about-5-header-1{
+    height: 48vh;
+    width: 35em;
+    margin-top: 5em;
+    margin-left: 8em;
+    line-height: 2em;
+    backdrop-filter: blur(5px);
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 2em;
+}
+.about-5-header-1 h1{
+    text-align: center;
+    color:rgb(2, 196, 2);
+    font-size: 250%;
+    
+}
+.about-5-header-1 p{
+    font-size: 130%;
+    padding-top: 1em;
+    color: black;
+}
+.about-5-header-2{
+    height: 48vh;
+    width: 35em;
+    margin-top: 5em;
+    margin-left: 1em;
+    line-height: 2em;
+    backdrop-filter: blur(10px);
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 2em;
+}
+.about-5-header-2 h1{
+    text-align: center;
+    color:rgb(2, 196, 2);
+    font-size: 250%;
+    
+}
+.about-5-header-2 p{
+    font-size: 130%;
+    padding-top: 1em;
+    color: black;
+}
+  
+                  /*                 join us            */
+
+.overall-about-6{
+    transform: translateY(-35em);
+}
+.overall-about-6 h1{
+    color:rgb(2, 196, 2);
+    font-size: 250%;
+    margin-left: 1em;
+}
+.overall-about-6-content{
+    display: grid;
+    grid-template-columns: 50em 20em 20em;
+}
+.overall-about-6-content p{
+    font-size: 150%;
+    padding-top: 2em;
+    margin-left: 5em;
+    color: rgb(101, 99, 99);
+    line-height: 2em;
+}
+.overall-about-6-content button{
+    margin-top: 6.2em;
+    height: 5vh;
+    width: 70%;
+    margin-left: 12em;
+    padding: 1em;
+    background-color: rgb(2, 196, 2);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+                           /*         footer    */
+
+.overall-footer{
+    display: grid;
+    grid-template-columns: 2fr 17em 17em 1fr;
+    background-color: white;
+    height: 40vh;
+    padding-top: 3em;
+    transform: translateY(-30em);
+}
+.overall-footer p{
+    margin-left: 25%;
+    margin-top: 1em;
+    font-size: 180%;
+    color:rgb(99, 97, 97);
+}
+.overall-footer img {
+   height: 20%;
+   margin-top: 3em;
+   margin-left:10em ;
+}
+.overall-footer li{
+    list-style-type:"\00BB";
+    padding-top: 3em;
+    padding-left: 1.5em;
+    color:rgb(99, 97, 97);
+}
+.overall-footer li:hover{
+    color: rgb(2, 196, 2) ;
+    cursor: pointer;
+}
+.overall-footer h3{
+    font-size: 150%;
+    padding-left: 1em;
+}
+
+                /*                     last footer             */
+
+.overall-last-footer{
+    transform: translateY(-28em);
+    margin-left: 10em;
+    display: grid;
+    grid-template-columns: 32em 32em 30em;
+    background-color: white;
+    height: 5vh;
+    overflow: hidden;
+}
+.overall-last-footer h3{
+    font-size: 150%;
+}
+.overall-last-footer p{
+    font-size: 150%;
+    color: darkgrey;
+}
+.overall-last-footer img{
+    height: 08%;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: auto; 
+        padding: 1em 0; 
+    }
+
+    .navbar-content {
+        grid-template-columns: repeat(7,3.2em) ;
+        gap: 10px; 
+        padding-top: 0; 
+        text-align: center; 
+        font-size: 80%; 
+    }
+
+    .navbar-content img {
+        margin-left: 0; 
+        margin-top: 1.5%;
+        height: 100%; 
+        width: 100%; 
+    }
+
+    .navbar-content button {
+        width: 130%; 
+        margin: 0 auto; 
+    }
+
+    .navbar li {
+        padding: 5px 0; 
+    }
+    .overall-about-1 {
+        height: auto;
+        padding: 1em 0; 
+    }
+
+    .about-1-header h1 {
+        font-size: 180%;
+        padding-top: 0.4em; 
+    }
+
+    .about-1-header p {
+        font-size: 100%; 
+        padding-top: 0.8em; 
+        line-height: 1.3em; 
+    }
+
+
+    .overall-about-2 {
+        grid-template-columns: 1fr; /* Stack content in a single column */
+        margin-top: 1em; /* Adjust margin for smaller screens */
+    }
+
+    .overall-about-2 img {
+        height: auto; /* Make the image responsive */
+        width: 100%; /* Ensure the image fits the screen width */
+    }
+
+    .about-2-header {
+        width: 90vw; /* Adjust width for smaller screens */
+        transform: none; /* Remove transform for mobile */
+        margin: 0 auto; /* Center the content */
+        padding-top: 1em; /* Add padding for spacing */
+    }
+
+    .about-2-header h1 {
+        font-size: 180%; /* Reduce font size for smaller screens */
+        padding-top: 0.4em; /* Adjust padding */
+    }
+
+    .about-2-header p {
+        font-size: 100%; /* Reduce font size for smaller screens */
+        padding-top: 0.8em; /* Adjust padding */
+        line-height: 1.5em; /* Adjust line height */
+    }
+
+    .div-1,
+    .div-2 {
+        width: 40vw; /* Adjust width for smaller screens */
+        transform: none; /* Remove transform for mobile */
+        margin: 1em auto; /* Center the dividers and add spacing */
+    }
+
+
+    .overall-about-3 {
+        height: 60vh; /* Adjust height for smaller screens */
+        transform: none; /* Remove transform for mobile */
+        margin-top: 2em;
+    }
+
+    .about-3-header {
+        margin-left: 0; /* Remove margin-left for mobile */
+        transform: none; /* Remove transform for mobile */
+        width: 80%; /* Increase width for better readability */
+        margin: 0 auto; /* Center the header */
+        line-height: 1.5em; /* Adjust line height for smaller screens */
+        backdrop-filter: blur(5px); /* Reduce blur for performance */
+        transform: translateY(3em);
+    }
+
+    .about-3-header h1 {
+        font-size: 180%; /* Reduce font size for smaller screens */
+    }
+
+    .about-3-header p {
+        font-size: 100%; /* Reduce font size for smaller screens */
+        padding-top: 1em; /* Adjust padding for smaller screens */
+    }
+
+    .about-3-header span {
+        font-size: 120%; /* Reduce font size for smaller screens */
+        padding-left: 0.5em; /* Adjust padding for smaller screens */
+    }
+
+
+    .overall-about-4 {
+        grid-template-columns: 1fr; /* Stack the columns vertically */
+        transform: translateY(0); /* Reset the transform */
+    }
+
+    .about-4-header {
+        transform: translateX(0) translateY(0); /* Reset the transform */
+        width: 90%; /* Full width */
+        padding: 1em; /* Add some padding */
+        text-align: center; /* Center the text */
+    }
+
+    .about-4-header h1 {
+        font-size: 200%; /* Reduce the font size */
+        padding-top: 0; /* Reset padding */
+    }
+
+    .about-4-header p {
+        font-size: 100%; /* Reduce the font size */
+        line-height: 1.5em; /* Adjust line height */
+    }
+
+    .div-3, .div-4 {
+        width: 50%; /* Reduce the width */
+        transform: translateX(0) translateY(0); /* Reset the transform */
+        margin: 1em auto; /* Center the divs */
+    }
+
+    .overall-about-5 {
+        transform: translateY(0); /* Reset transform for mobile */
+        height: auto; /* Adjust height to fit content */
+        padding: 2em 0; /* Add padding for better spacing */
+    }
+    
+    .overall-about-5 h2 {
+        font-size: 180%; /* Reduce font size for mobile */
+        padding: 0 1em; /* Add padding to prevent text overflow */
+    }
+    
+    .overall-about-5-content {
+        grid-template-columns: 1fr; /* Switch to a single column layout */
+        gap: 1em; /* Add gap between grid items */
+    }
+    
+    .overall-about-5-bg {
+        height: auto; /* Adjust height to fit content */
+        padding: 1em; /* Add padding for better spacing */
+    }
+    
+    .about-5-header-1,
+    .about-5-header-2 {
+        width: 90%; /* Make containers take up most of the screen width */
+        margin: 1em auto; /* Center the containers and reduce margin */
+        height: auto; /* Adjust height to fit content */
+        padding: 1em; /* Reduce padding for smaller screens */
+        line-height: 1.5em; /* Adjust line height for better readability */
+    }
+    
+    .about-5-header-1 h1,
+    .about-5-header-2 h1 {
+        font-size: 180%; /* Reduce font size for mobile */
+    }
+    
+    .about-5-header-1 p,
+    .about-5-header-2 p {
+        font-size: 100%; /* Reduce font size for mobile */
+        padding-top: 0.5em; /* Adjust padding for smaller screens */
+    }
+    
+    
+    .overall-about-6 {
+        transform: translateY(0px); /* Reset transform for mobile */
+    }
+    
+    .overall-about-6 h1 {
+        font-size: 200%; /* Adjust font size for mobile */
+        margin-left: 0.5em; /* Adjust margin for mobile */
+        text-align: center; /* Center align the heading */
+    }
+    
+    .overall-about-6-content {
+        display: block; /* Change grid to block layout for mobile */
+    }
+    
+    .overall-about-6-content p {
+        font-size: 120%; /* Adjust font size for mobile */
+        margin-left: 1em; /* Adjust margin for mobile */
+        padding-top: 0.5em; /* Adjust padding for mobile */
+        line-height: 1.5em; /* Adjust line height for mobile */
+        text-align: center; /* Center align the text */
+    }
+    
+    .overall-about-6-content button {
+        margin-top: 2em; /* Adjust margin for mobile */
+        width: 80%; /* Adjust button width for mobile */
+        margin-left: auto; /* Center the button */
+        margin-right: auto; /* Center the button */
+        display: block; /* Ensure the button is block-level for centering */
+        padding: 0.8em; /* Adjust padding for mobile */
+        font-size: 100%; /* Adjust font size for mobile */
+    }
+    
+
+    .overall-footer {
+        grid-template-columns: 1fr; 
+        height: auto;
+        transform: translateY(0em);
+        padding-top: 1em;
+        margin-top: 2em; 
+    }
+
+    .overall-footer img {
+        height: 15%; 
+        margin-top: 1em; 
+        margin-left: 1em;
+    }
+
+    .overall-footer li {
+        padding-top: 1em;
+        padding-left: 1em; 
+    }
+
+    .overall-footer h3 {
+        font-size: 120%; 
+        padding-left: 0.5em; 
+        padding-top: 2em;
+    }
+
+    .overall-footer p {
+        padding-top: 1em; 
+        margin-left: 1em; 
+        font-size: 120%; 
+    }
+
+    .overall-last-footer {
+        transform: translateY(0em);
+        grid-template-columns: 8em 8em 8em; 
+        height: 3vh; 
+        margin-top: 1em; 
+        margin-left: 1em;
+        overflow-y: hidden;
+    }
+
+    .overall-last-footer h3 {
+        font-size: 60%; 
+    }
+
+    .overall-last-footer p {
+        font-size: 70%; 
+    }
+
+    .overall-last-footer img {
+        height: 2.8%; 
+        padding-left: 0.5rem; 
+    }
+
+}
