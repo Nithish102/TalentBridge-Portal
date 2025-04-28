@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+                 /*                  Navbar                  */
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    margin-top: 1em;
+    background-color:  #ECEEEE;
+    height: 4em;
+    z-index: 1;
+}
+.navbar-content{
+    padding-top: 0.5em;
+    align-items: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 600px 100px 100px 150px 300px 80px 80px;
+    font-size: 120%;
+}
+.navbar li:hover{
+    color: rgb(2, 196, 2);
+    cursor: pointer;
+}
+.navbar-content img{
+    margin-left: 20%;
+    height:15%;
+    width:15%
+}
+.navbar-content button{
+  height: 05vh;
+  width: 170%;
+  background-color: rgb(2, 196, 2);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*              main category content - 1                 */
+
+.overall-category-1{
+    height: 22vh;
+    background-color:  #ECEEEE; 
+    text-align: center;   
+}
+.category-1-header h1{
+    font-size: 300%;
+    padding-top: 0.6em;
+    color: rgb(2, 196, 2);
+}
+.category-1-header p{
+    font-size: 180%;
+    padding-top: 1em;
+    color: rgb(101, 99, 99);
+    line-height: 1.5em;
+}     
+.overall-category-2{
+    margin-top: 1em;
+    font-size: 150%;
+    color: rgb(2, 196, 2);
+    margin-left: 1em;
+}
+.overall-category-2 p{
+    font-size: 80%;
+    margin-top: 2em;
+    margin-left: 6em;
+    color: rgb(101, 99, 99);
+}
+.overall-category-2 span{
+    color: black;
+}
+
+
+.ui-lists{
+    margin-left: 8.7em;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns:4.5em 20em 18em 15em 11em 1em;
+    border: solid 2px  rgb(244, 242, 242);
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom:2em;
+    width: 80em;
+    border-radius: 20px;
+}
+.ui-lists:hover{
+    border-color:rgb(2, 196, 2);
+}
+.ui-lists img{
+    height: 3em;
+    width: 3em;
+    border-radius: 1rem;
+}
+.ui-list-1-header{
+    padding-top: 0.8rem;
+}
+.ui-lists p{
+    margin-top: 0.5rem;
+    font-size: 120%;
+    line-height: 1.5rem;
+}
+.ui-lists span{
+    color: rgb(2, 196, 2);
+}
+.ui-lists button{
+    height: 05vh;
+    width: 10em;
+    background-color: rgb(2, 196, 2);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 0.8rem;
+}
+.ui-list-1-salary-1 span{
+     color: red;
+}
+.number-of-pages{
+    margin-top: 2em;
+    margin-left:5em;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    font-size: 150%;
+}
+span{
+    padding-left: 1em;
+    color: rgb(2, 196, 2);
+    cursor: pointer;
+}
+
+.overall-shortcut{
+    height: 20vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 4fr 13em 1fr;
+    margin-top: 8em;
+    margin-left: 8em;
+}
+.shortcut-header h1{
+    font-size: 250%;
+    color:  rgb(3, 79, 3);
+}
+.shortcut-header p{
+    font-size: 150%;
+    color:  darkgrey;
+    margin-top: 2rem;
+}
+.overall-shortcut button{
+    margin-top: 2.5em;
+    height: 5vh;
+    width: 70%;
+    padding: 1em;
+    background-color: rgb(2, 196, 2);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.overall-footer{
+    display: grid;
+    grid-template-columns: 2fr 17em 17em 1fr;
+    background-color: white;
+    height: 40vh;
+    padding-top: 3em;
+    margin-top: 3em;
+}
+.overall-footer p{
+    margin-left: 25%;
+    margin-top: 1em;
+    font-size: 180%;
+    color:rgb(99, 97, 97);
+}
+.overall-footer img {
+   height: 20%;
+   margin-top: 3em;
+   margin-left:10em ;
+}
+.overall-footer li{
+    list-style-type:"\00BB";
+    padding-top: 3em;
+    padding-left: 1.5em;
+    color:rgb(99, 97, 97);
+}
+.overall-footer li:hover{
+    color: rgb(2, 196, 2) ;
+    cursor: pointer;
+}
+.overall-footer h3{
+    font-size: 150%;
+    padding-left: 1em;
+}
+
+
+.overall-last-footer{
+    margin-top: 2em;
+    margin-left: 10em;
+    display: grid;
+    grid-template-columns: 32em 32em 30em;
+    background-color: white;
+    height: 5vh;
+    overflow: hidden;
+}
+.overall-last-footer h3{
+    font-size: 150%;
+}
+.overall-last-footer p{
+    font-size: 150%;
+    color: darkgrey;
+}
+.overall-last-footer img{
+    height: 08%;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: auto; /* Allow height to adjust */
+        padding: 0.5em; /* Reduce padding for mobile */
+        overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+        white-space: nowrap; /* Prevent items from wrapping to the next line */
+    }
+
+    .navbar-content {
+        display: flex; /* Change grid to flexbox */
+        flex-direction: row; /* Keep items in a single row */
+        align-items: center; /* Center items vertically */
+        padding: 0; /* Remove padding for mobile */
+        font-size: 90%; /* Reduce font size for mobile */
+    }
+
+    .navbar-content li {
+        margin: 0 0.5em; /* Add spacing between list items */
+    }
+
+    .navbar-content img {
+        margin-left: 0; /* Reset margin for mobile */
+        height: 10%; /* Adjust image size for mobile */
+        width: 10%;
+    }
+
+    .navbar-content button {
+        width: auto; /* Allow button to adjust its width */
+        padding: 0.5em 1em; /* Add padding to button */
+        margin-top: 0; /* Reset margin for mobile */
+    }
+    .overall-category-1 {
+        height: auto; /* Adjust height for mobile */
+        padding: 1em; /* Add padding for better spacing */
+    }
+
+    .category-1-header h1 {
+        font-size: 200%; /* Reduce font size for mobile */
+        padding-top: 0.3em; /* Adjust padding for mobile */
+    }
+
+    .category-1-header p {
+        font-size: 120%; /* Reduce font size for mobile */
+        padding-top: 0.5em; /* Adjust padding for mobile */
+        line-height: 1.2em; /* Adjust line height for mobile */
+    }
+
+    .overall-category-2 {
+        font-size: 120%; /* Reduce font size for mobile */
+        margin-left: 0.5em; /* Adjust margin for mobile */
+    }
+
+    .overall-category-2 p {
+        font-size: 70%; /* Reduce font size for mobile */
+        margin-top: 1em; /* Adjust margin for mobile */
+        margin-left: 1em; /* Adjust margin for mobile */
+    }
+    .ui-lists {
+        margin-left: 1em; /* Reduce margin for mobile */
+        margin-top: 1em; /* Reduce margin for mobile */
+        display: flex; /* Change grid to flex for better mobile layout */
+        flex-direction: column; /* Stack items vertically */
+        padding: 1em; /* Reduce padding for mobile */
+        width: auto; /* Allow width to adjust to screen size */
+        border-radius: 10px; /* Adjust border radius for mobile */
+    }
+
+    .ui-lists img {
+        height: 2.5em; /* Reduce image size for mobile */
+        width: 2.5em; /* Reduce image size for mobile */
+        margin-bottom: 1em; /* Add spacing below image */
+    }
+
+    .ui-list-1-header {
+        padding-top: 0.5rem; /* Adjust padding for mobile */
+    }
+
+    .ui-lists p {
+        font-size: 100%; /* Reduce font size for mobile */
+        line-height: 1.2rem; /* Adjust line height for mobile */
+    }
+
+    .ui-lists button {
+        width: 100%; /* Make button full width on mobile */
+        margin-top: 1em; /* Add spacing above button */
+    }
+
+    .number-of-pages {
+        margin-left: 1em; /* Reduce margin for mobile */
+        font-size: 120%; /* Reduce font size for mobile */
+        grid-template-columns: 1fr; /* Stack items vertically */
+    }
+
+    span {
+        padding-left: 0.5em; /* Adjust padding for mobile */
+    }
+
+    .overall-shortcut {
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-left: 0; 
+        padding: 1em; 
+    }
+
+    .shortcut-header {
+        text-align: center; 
+    }
+
+    .shortcut-header h1 {
+        font-size: 200%; 
+    }
+
+    .shortcut-header p {
+        font-size: 120%; 
+        margin-top: 1rem;
+    }
+
+    .overall-shortcut button {
+        margin-top: 1.5em;
+        width: 100%; 
+        height: auto;
+        padding: 0.8em;
+    }
+    .overall-footer {
+        grid-template-columns: 1fr; 
+        height: auto;
+        padding-top: 1em;
+        margin-top: 2em; 
+    }
+
+    .overall-footer img {
+        height: 15%; 
+        margin-top: 1em; 
+        margin-left: 1em;
+    }
+
+    .overall-footer li {
+        padding-top: 1em;
+        padding-left: 1em; 
+    }
+
+    .overall-footer h3 {
+        font-size: 120%; 
+        padding-left: 0.5em; 
+        padding-top: 2em;
+    }
+
+    .overall-footer p {
+        padding-top: 1em; 
+        margin-left: 1em; 
+        font-size: 120%; 
+    }
+
+    .overall-last-footer {
+        grid-template-columns: 8em 8em 8em; 
+        height: 3vh; 
+        margin-top: 1em; 
+        margin-left: 1em;
+        overflow-y: hidden;
+    }
+
+    .overall-last-footer h3 {
+        font-size: 60%; 
+    }
+
+    .overall-last-footer p {
+        font-size: 70%; 
+    }
+
+    .overall-last-footer img {
+        height: 2.8%; 
+        padding-left: 0.5rem; 
+    }
+}
